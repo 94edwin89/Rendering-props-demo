@@ -1,8 +1,8 @@
 import "./styles.css";
-import {companies} from './companies'
-import {products} from './products'
+import {companies} from './data/companies'
+import {products} from './data/products'
 
-import withToggles from "./HOC";
+import withToggles from "./higher-order-compnents/HOC";
 
 import ProductItem from "./components/ProductItem";
 import List from './components/List'
